@@ -1,5 +1,4 @@
-# Lab 06: 
-## Topics: Firebase Authentication (Email/Password & Google Sign-In)
+# Lab 06
 
 ## Description
 

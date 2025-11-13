@@ -46,7 +46,7 @@ Follow the same initial steps Part 1 -> 3 in [Lab 5](https://github.com/ULHT-SME
 Open terminal in the project directory and run this command:
 
 ```bash
-flutter pub add firebase_core firebase_auth cloud_firestore google_sign_in
+flutter pub add firebase_core firebase_auth cloud_firestore google_sign_in:^6.2.1
 ```
 
 Run to install:

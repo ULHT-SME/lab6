@@ -61,10 +61,9 @@ flutter pub get
 
 1. **Download SHA-1 fingerprint:**
 ```bash
-cd android
-./gradlew signingReport
+keytool -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
 ```
-
+Note: The default password is: **android**
 2. **Copy the SHA-1 from the debug section**
 
 3. **Add to Firebase:**
